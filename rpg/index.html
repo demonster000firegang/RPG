@@ -1,11 +1,16 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>RPG no Navegador</title>
+    <meta charset="UTF-8" />
+    <title>RPG do Herói</title>
+    <style>
+        body { margin: 0; overflow: hidden; background: black; }
+        canvas { display: block; margin: 0 auto; background: #000; }
+    </style>
 </head>
-<body style="margin:0; background:black; color:white;">
-    <h1 style="padding:20px;">A lenda começa...</h1>
-    <script src="script.js"></script>
+<body>
+    <canvas id="gameCanvas" width="640" height="360"></canvas>
+    <script src="scripts/game.js"></script>
 </body>
 </html>
